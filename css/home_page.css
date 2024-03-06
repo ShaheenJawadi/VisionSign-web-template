@@ -1,0 +1,50 @@
+.intro_section {
+    margin: 25px 0;
+}
+.intro_section .left_images{
+    display: flex;
+    gap: 15px;
+    position: relative;
+}
+.intro_section .left_images img{
+    z-index: 2;
+}
+
+.intro_section .left_images .left_element{
+    position: absolute;
+    width: 30px;
+    height: 90%;
+    background: var(--fx-primary-color);
+    /* padding: 46px 0; */
+    top: 30px;
+    bottom: 0;
+    left: -22px;
+    z-index: -1;
+    border-radius: 5px;
+
+}
+
+.intro_section .text_holder{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    justify-content: center;
+    gap: 15px;
+}
+.intro_section p {
+    color: var(--fx-main-text-color);
+    font-size: 20px;
+}
+.intro_section ul li{
+    color: var(--fx-main-text-color);
+    font-size: 22px;
+}
+.intro_section ul li::marker{
+    color: var(--fx-primary-color);
+    font-size: 22px;
+
+}
+.intro_section button{
+    width: fit-content;
+}
