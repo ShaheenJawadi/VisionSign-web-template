@@ -48,3 +48,18 @@
 .intro_section button{
     width: fit-content;
 }
+
+/* asdqs */
+
+
+.intro_section2{
+    min-height: 350px;
+    color: aliceblue;
+    background-image: url("/assets/intro2_bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    font-size: 33px;
+    text-shadow: 0px 2px black
+}
