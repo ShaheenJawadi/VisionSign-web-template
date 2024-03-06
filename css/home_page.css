@@ -1,3 +1,7 @@
+.banner img {
+    /* max-width: 99vw; */
+        width: -webkit-fill-available;
+}
 .intro_section {
     margin: 25px 0;
 }
@@ -62,4 +66,24 @@
     align-items: center;
     font-size: 33px;
     text-shadow: 0px 2px black
+}
+
+
+
+/* why us */
+.why_us{
+    margin: 25px 0;
+}
+.why_us{
+    position: relative;
+}
+.why_us .why_us_img{
+    position: absolute;
+    right: 0;
+    top: 0;
+
+}
+
+.why_us .why_us_img img {
+    max-width: 815px;
 }
