@@ -87,3 +87,12 @@
 .why_us .why_us_img img {
     max-width: 815px;
 }
+
+/* newsletter */
+
+.newsletter{
+    color: #fff;
+    padding: 80px 0;
+    background-color: var(--fx-primary-color);
+
+}
