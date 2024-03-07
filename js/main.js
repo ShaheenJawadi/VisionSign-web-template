@@ -9,6 +9,7 @@
         $('.intro_section2').load('../components/main_page/intro_section2.html')
         $('.why_us').load('../components/main_page/why_us.html')
         $('.newsletter').load('../components/main_page/newsletter.html')
+        $('footer').load('../components/footer.html')
 
     });
 })(jQuery);

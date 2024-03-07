@@ -17,6 +17,11 @@ body{
  
 }
 
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
 
 .btn_main{
     font-size: 20px;
@@ -84,3 +89,79 @@ body{
 }
 /* *************************End Header ************************ */
 
+
+
+
+
+
+/* ************************* Footer ************************ */
+
+footer .footer_Holder {
+ 
+   
+    background: #1c1e27;
+}
+
+
+footer .footer_Holder{
+    background-image: url("/assets/footer_bg.png");
+    background-repeat: no-repeat;
+        background-size: cover;
+        padding: 80px 0;
+
+     
+}
+footer .footer_Holder .logo_holder {
+    display: flex;
+    justify-content: center;
+}
+
+footer .footer_Holder .footer_logo {
+
+    height: 120px;
+}
+
+footer .footer_Holder .footer_list_holder{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+footer .footer_Holder .footer_list_holder .title {
+    display: block;
+    font-size: 22px;
+ 
+}
+footer .footer_Holder .footer_list_holder ul{
+    list-style: none;
+}
+footer .footer_Holder .footer_list_holder ul li {
+        list-style: unset;
+        margin: 8px 0;
+
+}
+
+footer .footer_Holder .footer_social{
+    display: flex;
+    gap: 15px;
+}
+
+footer .footer_Holder .footer_social .item {
+    height: 50px;
+    width: 50px;
+    background: var(--fx-primary-color);
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+
+footer .footer_Holder .footer_social .item:hover {
+  
+    background: #fff;
+    color: var(--fx-primary-color);
+ 
+}
+/* *************************End Footer ************************ */
