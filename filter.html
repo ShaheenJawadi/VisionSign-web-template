@@ -36,11 +36,12 @@
         <div class="content"  >
             <div class="container" >
                 <div class="row">
-                    <div class="col-md-3" >
-                        qsdqs
+                    <div class="col-md-3" id="side_bar_palce" style="padding-right: 0;" >
+                         
 
                     </div>
-                    <div class="col-md-9" >
+                    <div class="col-md-9" style="padding-left: 0;" >
+                         
 
                         <div class="container-fluid">
                             <div class="row" id="cours_list">
@@ -90,6 +91,7 @@
 
                     $(".header").load('../components/header.html')
                     $('footer').load('../components/footer.html');
+                    $('#side_bar_palce').load('../components/cours/filter/sidebar.html');
 
                     for (let i = 0; i < 15; i++) {
                         $.get('../components/cours/single_grid.html', function (data) {
