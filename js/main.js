@@ -12,6 +12,7 @@
         $('footer').load('../components/footer.html')
         $('.our_categories_section').load('../components/main_page/nos_categories_section.html')
         $('.explor_cours_section').load('../components/main_page/explor_cours_section.html')
+        $('.nos_aventages_section').load('../components/main_page/nos_aventages_section.html')
 
     });
 })(jQuery);

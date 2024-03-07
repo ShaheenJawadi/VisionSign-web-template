@@ -151,3 +151,59 @@
 .explor_cours_section h2{
     text-align: center;
 }
+
+/* **************Aventages************* */
+.nos_aventages_section{
+    margin: 30px 0;
+}
+.nos_aventages_section .aventage_holder {
+    position: relative;
+    padding: 30px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.nos_aventages_section .aventage_holder .aventage_bg{
+    background: var(--fx-primary-color);
+    position: absolute;
+    right: 0;
+    left: 0;
+    height: 65%;
+    z-index: -1;
+    top: 0;
+
+
+}
+.nos_aventages_section .aventage_holder h2{
+    text-align: center;
+    color: #fff;
+
+}
+
+.nos_aventages_section .aventage_holder .single {
+    background: #fff;
+    height: 100%;
+    border-radius: 8px;
+    padding: 15px;
+
+}
+.nos_aventages_section .aventage_holder .single .top_head{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.nos_aventages_section .aventage_holder .single .top_head .icon {
+    color: var(--fx-main-text-color);
+    font-size: 25px;
+}
+
+.nos_aventages_section .aventage_holder .single .top_head .title {
+    color: var(--fx-primary-color);
+    font-size: 18px;
+    font-weight: 600;
+}
+.nos_aventages_section .aventage_holder .single p{
+    padding: 5px;
+    font-size: 18px;
+}
