@@ -113,6 +113,7 @@
     display: flex;
     flex-direction: column;
     border-radius: 15px;
+    background: #fff;
         align-items: center;
 }
 
@@ -120,7 +121,7 @@
     display: flex;
     flex-direction: column;
 }
-.our_categories_section .our_categories .item .img_holder{
+.our_categories_section .our_categories .item .img_holder img{
     width: min-content;
     height: 250px;
 }
@@ -141,4 +142,11 @@
     background: var(--fx-primary-color);
     color: #fff;
         border-radius: 0 0 15px 15px;
+}
+/************************ explore cours ***********************/
+.explor_cours_section{
+    margin: 25px 0;
+}
+.explor_cours_section h2{
+    text-align: center;
 }

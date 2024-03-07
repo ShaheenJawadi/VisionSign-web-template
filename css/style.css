@@ -15,6 +15,7 @@
 
 body{
  display: block;
+ background: var(--fx-secondary-btn-bg);
  
 }
 
@@ -174,3 +175,100 @@ footer .footer_Holder .footer_social .item:hover {
  
 }
 /* *************************End Footer ************************ */
+
+
+
+
+/* *************************Single cours************************ */
+
+.single_cours_grid{
+    background: #fff;
+    display: block;
+
+}
+.single_cours_grid:hover{
+    box-shadow: 1px 1px 4px 1px #7b7b7b;
+}
+
+.single_cours_grid .img_holder{
+    position: relative;
+    margin-bottom:25px;
+}
+.single_cours_grid .img_holder img {
+    width: 100%;
+}
+.single_cours_grid .img_holder .add_cours_btn{
+    position: absolute;
+    bottom: -23px;
+    left: 15px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    font-size: 24px;
+    color: var(--fx-primary-color);
+    box-shadow: 0px 3px 3px #6d6d6d;
+}
+.single_cours_grid .img_holder .add_cours_btn:hover{
+    background: var(--fx-primary-color);
+    color: #fff;
+}
+.single_cours_grid .img_holder .category {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    color: var(--fx-third-color);
+    background: var(--fx-third-color-background);
+    padding: 2px 10px ;
+    border-radius: 4px;
+}
+
+.single_cours_grid .infos {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 0 15px;
+
+}
+
+.single_cours_grid .infos .teacher{
+    color: var(--fx-primary-color);
+    font-size: 20px;
+}
+.single_cours_grid .infos .cours_title {
+    color: #000;
+    font-size: 18px;
+    font-weight: 700;
+}
+.single_cours_grid .infos .rating {
+        display: flex;
+            align-items: center;
+            gap: 5px;
+}
+.single_cours_grid .infos .rating .list_stars {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+.single_cours_grid .infos .rating .list_stars .star {
+    color: #f3e703;
+}
+
+.single_cours_grid .infos .rating small{
+    font-size: 12px;
+    color: var(--fx-main-text-color);
+}
+
+.single_cours_grid .separator{
+width: 100%;
+border-bottom: 1px solid #b8b8b8d3;
+}
+.single_cours_grid .bottom_part{
+    color: var(--fx-main-text-color);
+    text-align: center;
+    padding: 10px 0;
+}
+/* *************************Single cours************************ */
