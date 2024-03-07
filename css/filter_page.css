@@ -26,7 +26,22 @@
     padding: 25px 0;
 
 }
+.filter_page .content .pagination{
+    display: flex;
+    margin-top: 23px;
+    justify-content: center;
 
+}
+.filter_page .content .pagination .page-link{
+    color: var(--fx-primary-color);
+    font-size: 18px;
+}
+
+.filter_page .content .pagination .active .page-link {
+    background: var(--fx-primary-color);
+    color: #fff;
+
+}
 .filter_page .filter_side_bar{
     border-right: 1px solid var(--fx-secondary-btn-bg);
     background-color: rgb(255, 255, 255);
