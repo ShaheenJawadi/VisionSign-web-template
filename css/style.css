@@ -184,6 +184,7 @@ footer .footer_Holder .footer_social .item:hover {
 .single_cours_grid{
     background: #fff;
     display: block;
+    border-radius: 8px;
 
 }
 .single_cours_grid:hover{
