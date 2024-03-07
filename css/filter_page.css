@@ -1,4 +1,4 @@
-.filter_header{
+.filter_page .filter_header{
     background-image: url("/assets/filter/header.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -11,13 +11,17 @@
     position: relative;
 }
 
-.filter_header .seach_bar_holder {
+.filter_page .filter_header .seach_bar_holder {
     max-width: 600px;
     flex: 1;
 }
 
-.filter_header .seach_bar_holder .search_bar{
+.filter_page .filter_header .seach_bar_holder .search_bar{
     font-size: 30px;
 }
 
  
+
+.filter_page .content {
+    padding: 25px 0;
+}

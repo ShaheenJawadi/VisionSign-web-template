@@ -24,12 +24,42 @@
 
     <section class="header sticky-top"> </section>
 
+    <div class="filter_page" >
+
+   
         <div class="filter_header" >
             <div class="seach_bar_holder" >
                 <input type="text"  class="form-control search_bar"  >
             </div> 
         </div>
-   
+
+        <div class="content"  >
+            <div class="container" >
+                <div class="row">
+                    <div class="col-md-3" >
+                        qsdqs
+
+                    </div>
+                    <div class="col-md-9" >
+
+                        <div class="container-fluid">
+                            <div class="row" id="cours_list">
+                        
+                        
+                            </div>
+                        
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            
+
+        </div>
+    </div>
 
 
 
@@ -59,7 +89,13 @@
                 $window.on('load', function (key, value) {
 
                     $(".header").load('../components/header.html')
-                    $('footer').load('../components/footer.html')
+                    $('footer').load('../components/footer.html');
+
+                    for (let i = 0; i < 15; i++) {
+                        $.get('../components/cours/single_grid.html', function (data) {
+                            $("#cours_list").append(data);
+                        });
+                    }
                 
                 });
     </script>
