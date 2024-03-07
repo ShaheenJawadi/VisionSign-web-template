@@ -41,6 +41,9 @@
 
                     </div>
                     <div class="col-md-9" style="padding-left: 0;" >
+                        <div id="topBar">
+
+                        </div>
                          
 
                         <div class="container-fluid">
@@ -92,7 +95,7 @@
                     $(".header").load('../components/header.html')
                     $('footer').load('../components/footer.html');
                     $('#side_bar_palce').load('../components/cours/filter/sidebar.html');
-
+                    $('#topBar').load('../components/cours/filter/topbar.html');
                     for (let i = 0; i < 15; i++) {
                         $.get('../components/cours/single_grid.html', function (data) {
                             $("#cours_list").append(data);
