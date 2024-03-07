@@ -10,6 +10,7 @@
         $('.why_us').load('../components/main_page/why_us.html')
         $('.newsletter').load('../components/main_page/newsletter.html')
         $('footer').load('../components/footer.html')
+        $('.our_categories_section').load('../components/main_page/nos_categories_section.html')
 
     });
 })(jQuery);

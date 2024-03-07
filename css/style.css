@@ -9,6 +9,7 @@
     --fx-error-background: #f46a6a;
     --fx-error-background-background: rgba(244, 106, 106, 0.25);
     --fx-main-text-color: #757783;
+    --fx-secondary-btn-bg: #f1f2f6;
 }
 
 
@@ -22,6 +23,11 @@ a{
     color: inherit;
 }
 
+h2.p_color{
+    color: var(--fx-primary-color);
+ 
+}
+
 
 .btn_main{
     font-size: 20px;
@@ -32,7 +38,7 @@ a{
     border-radius: 8px;
     font-size: 20px;
 }
-
+ 
 /* *************************Header ************************ */
 .header {
 
@@ -88,6 +94,9 @@ a{
 
 }
 /* *************************End Header ************************ */
+
+
+
 
 
 
