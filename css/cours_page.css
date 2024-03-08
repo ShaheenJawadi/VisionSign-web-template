@@ -202,3 +202,48 @@ background: #fff;
     font-size: 30px;
     font-weight: 700;
 }
+
+
+.cours_page .core .info_review .list_rating {
+    display: flex;
+    flex-direction: column;
+    padding: 15px 30px;
+    gap: 20px;
+    margin-top: 25px;
+}
+
+.cours_page .core .info_review .list_rating .item {
+    border-bottom: 1px solid var(--fx-border-color);
+    display: flex;
+    gap: 20px;
+    padding-bottom: 20px;
+}
+
+.cours_page .core .info_review .list_rating .item .avatar img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.cours_page .core .info_review .list_rating .item .avis_content {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.cours_page .core .info_review .list_rating .item .avis_content .top{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+}
+
+.cours_page .core .info_review .list_rating .item .avis_content .top .name{
+    font-size: 20px;
+    color: #000;
+    font-weight: 600;
+}
+
+.cours_page .core .info_review .list_rating .item .avis_content .top .date {
+    color: var(--fx-primary-color);
+}
