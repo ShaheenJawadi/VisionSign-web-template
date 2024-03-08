@@ -97,3 +97,43 @@ background: #fff;
     color: var(--fx-main-text-color);
 
 }
+
+/*  */
+
+.cours_page .core .lesson_content .list_lessosn {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+.cours_page .core .lesson_content .list_lessosn .single {
+    border: unset;
+    border-bottom: 1px solid var(--fx-border-color);
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+.cours_page .core .lesson_content .list_lessosn .single {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+.cours_page .core .lesson_content .list_lessosn .single .title{
+    flex: 1;
+    font-size: 18px;
+}
+.cours_page .core .lesson_content .list_lessosn .single .duration{
+    color: var(--fx-main-text-color);
+}
+.cours_page .core .lesson_content .list_lessosn .single .circle{
+    background: var(--fx-primary-color);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.cours_page .core .lesson_content .list_lessosn .single.quizz{
+    border-bottom: unset;
+}
+
+.cours_page .core .lesson_content .list_lessosn .single.quizz .circle{
+    background: #f5f000;
+}
