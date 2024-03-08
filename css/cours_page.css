@@ -52,3 +52,48 @@ background: #fff;
     gap: 15px;
 
 }
+
+.cours_page .core .single {
+    background: #fff;
+        border: 1px solid var(--fx-border-color);
+}
+.cours_page .core .single.s{
+    padding: 15px;
+}
+.cours_page .core .cours_content {
+    display: flex;
+    flex-direction: column;
+ 
+}
+.cours_page .core .cours_content .thumbnail{
+    position: relative;
+
+}
+.cours_page .core .cours_content .thumbnail img {
+    width: 100%;
+}
+
+.cours_page .core .cours_content .infos{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 25px;
+
+}
+ 
+.cours_page .core .cours_content .infos .top_head .teacher {
+ color: var(--fx-primary-color);
+}
+
+.cours_page .core .cours_content .infos .top_head .date {
+    color: var(--fx-main-text-color);
+}
+
+.cours_page .core .cours_content .infos .description{
+    border-top: 1px solid var(--fx-border-color);
+    margin-top: 5px;
+    padding-top: 5px;
+    font-size: 18px;
+    color: var(--fx-main-text-color);
+
+}
