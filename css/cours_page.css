@@ -243,7 +243,34 @@ background: #fff;
     color: #000;
     font-weight: 600;
 }
-
+.cours_page .core .info_review .list_rating .star{
+    font-size: 10px !important;
+}
 .cours_page .core .info_review .list_rating .item .avis_content .top .date {
     color: var(--fx-primary-color);
+}
+
+.cours_page .core .info_review .list_rating .item .avis_content .top .rating_class{
+    font-size: 14px;
+    color: var(--fx-main-text-color);
+}
+
+.cours_page .core .info_review .my_review{
+    display: flex;
+    
+    flex-direction: column;
+    gap: 15px;
+
+}
+.cours_page .core .info_review .my_review .rate{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+.cours_page .core .info_review .my_review button{
+    width: max-content;
+}
+
+.cours_page .core .info_review .my_review span , .cours_page .core .info_review .my_review label{
+    color: var(--fx-main-text-color);
 }
