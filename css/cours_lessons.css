@@ -1,0 +1,44 @@
+.cours_lessons{
+    margin:  25px 0;
+
+}
+
+.cours_lessons .side_bar{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background: #fff;
+    padding: 25px;
+}
+
+.cours_lessons .side_bar .single {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid var(--fx-border-color);
+    padding-bottom: 25px;
+    gap: 5px;
+
+}
+
+.cours_lessons .side_bar .single .circle {
+    height: 35px ;
+    width: 35px ;
+    background: var(--fx-primary-color);
+    border-radius: 50%;
+
+}
+
+.cours_lessons .side_bar .single .title {
+    font-size: 18px;
+    color: var(--fx-main-text-color);
+    font-weight: 700;
+    
+}
+
+.cours_lessons .side_bar .single.quizz{
+    border-bottom: unset;
+}
+
+.cours_lessons .side_bar .single.quizz .circle{
+    background: #dedb0a;
+}
