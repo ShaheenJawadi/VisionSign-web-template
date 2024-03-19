@@ -63,3 +63,26 @@
 .cours_quizz .quizz_core  .img_holder img {
     max-height: 250px;
 }
+
+.quizz_note_page{
+    background: #fff;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+    min-height: 400px;
+    justify-content: space-between;
+}
+
+.quizz_note_page .txt {
+    color: #000;
+    font-size: 25px;
+    
+}
+
+.quizz_note_page .note{
+    color: var(--fx-primary-color);
+    font-size: 30px;
+    font-weight: 700;
+}
