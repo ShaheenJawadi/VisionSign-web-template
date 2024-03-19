@@ -310,9 +310,22 @@ border-bottom: 1px solid #b8b8b8d3;
     background: #2282ed;
 }
 
+.auth_holder  .social_btns button.fb:hover{
+    color: #2282ed;
+    border: 2px solid #2282ed;
+    background: #fff;
+}
+
 .auth_holder  .social_btns button.google{
     background: #ff663a;
 }
+
+.auth_holder  .social_btns button.google:hover{
+    color: #ff663a;
+    border: 2px solid #ff663a;
+    background: #fff;
+}
+
 
 .auth_holder .separator{
     display: flex;
@@ -351,6 +364,7 @@ border-bottom: 1px solid #b8b8b8d3;
 .auth_holder .ind{
     color: var(--fx-main-text-color);
     font-size: 17px;
+    cursor: pointer;
 }
 .auth_holder button.btn_main{
     width: 100%;

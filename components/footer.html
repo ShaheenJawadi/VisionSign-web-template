@@ -61,48 +61,18 @@
 </div>
 
 
-<div class="modal fade" id="authModel" data-bs-backdrop="static" tabindex="-1"  >
+<div class="modal fade" id="authModel"   tabindex="-1"  >
     <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
       <div class="modal-content">
-       <div class="auth_holder" >
  
-            <div class="auth_title">Se connecter avec</div>
-            <div  class="social_btns">
-                <button class="fb"><i class="fa-brands fa-facebook-f"></i> <span>Facebook</span></button>
-                <button class="google"><i class="fa-brands fa-google"></i> <span>Google</span></button>
-
-
-            </div>
-            <div class="separator">
-                <div class="line"></div>
-                <span>Ou</span>
-                <div class="line"></div>
-
-            </div>
-
-            <div class="input_holder">
-
-            
-                <div class="input-group flex-nowrap">
-                    <span class="input-group-text"  ><i class="fa-solid fa-user"></i></span>
-                    <input type="text" class="form-control" placeholder="Username"  >
-                </div>
-
-                <div class="input-group flex-nowrap">
-                    <span class="input-group-text"  ><i class="fa-solid fa-lock"></i></span>
-                    <input type="password" class="form-control" placeholder="Mot de passe"  >
-                </div>
-            </div>
-            <div class="ind"> Mot de passe oublié ? </div>
-
-            <button class="btn_main">Login</button>
-
-            <div class="ind"> Vous avez déjà un compte? </div>
-            <div class="ind"> Je n'ai pas de compte !</div>
-
- 
-
-       </div>
       </div>
     </div>
 </div>
+
+<script>
+  
+    
+        $(".modal-content").load('../components/auth/login.html')
+      
+ 
+</script>
