@@ -43,8 +43,12 @@
     background: #dedb0a;
 }
 
-
-
+.cours_lessons .side_bar .single.done .circle {
+background: var(--fx-secondary-color);
+}
+.cours_lessons .side_bar .single.current .title {
+    color: var(--fx-primary-color);
+}
 .cours_lessons .core  {}
 .cours_lessons .core  .content_holder{
     background: #fff;
