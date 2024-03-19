@@ -27,13 +27,27 @@
             <input type="password" class="form-control" placeholder="Mot de passe"  >
         </div>
     </div>
-    <div class="ind"> Mot de passe oublié ? </div>
+    <div class="ind" id="openForgetPws"> Mot de passe oublié ? </div>
 
     <button class="btn_main">Login</button>
 
    
-    <div class="ind"> Je n'ai pas de compte !</div>
+    <div class="ind"  id="openRegister"> Je n'ai pas de compte !</div>
 
 
 
 </div>
+
+
+<script>
+  
+    
+ 
+    $("#openForgetPws").on( "click", function() {
+       $(".modal-content").load('../components/auth/forget_pws.html')
+       } );
+       $("#openRegister").on( "click", function() {
+       $(".modal-content").load('../components/auth/register.html')
+       } );
+
+</script>

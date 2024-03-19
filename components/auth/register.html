@@ -39,9 +39,20 @@
 
     <button class="btn_main">S'inscrire</button>
 
-    <div class="ind"> Vous avez déjà un compte? </div>
+    <div class="ind" id="openLoginPopup"> Vous avez déjà un compte? </div>
   
 
 
 
 </div>
+ 
+<script>
+  
+    
+ 
+    $("#openLoginPopup").on( "click", function() {
+       $(".modal-content").load('../components/auth/login.html')
+       } );
+
+
+</script>
