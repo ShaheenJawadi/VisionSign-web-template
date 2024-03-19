@@ -280,4 +280,79 @@ border-bottom: 1px solid #b8b8b8d3;
 /* *************************Authentification************************ */
 
 
+.auth_holder{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    padding: 20px;
+
+}
+.auth_holder .auth_title{
+    color: var(--fx-main-text-color);
+    font-size: 25px;
+    font-weight: 600;
+}
+.auth_holder  .social_btns{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.auth_holder  .social_btns button{
+    border: unset;
+    font-size: 25px;
+    color: #fff;
+    padding: 10px 25px ;
+    border-radius: 5px;
+}
+.auth_holder  .social_btns button.fb{
+    background: #2282ed;
+}
+
+.auth_holder  .social_btns button.google{
+    background: #ff663a;
+}
+
+.auth_holder .separator{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+}
+
+.auth_holder .separator span{
+    color: var(--fx-primary-color);
+    font-size: 18px;
+}
+.auth_holder .separator .line {
+    flex: 1;
+    height: 1px ;
+    background: #aeaeae;
+}
+.auth_holder  .input_holder{
+    display: flex;
+    width: 100%;
+    gap: 15px;
+    flex-direction: column;
+}
+.auth_holder  .input_holder .input-group span{
+    background: var(--fx-primary-color);
+    color: #fff;
+}
+.auth_holder  .input_holder .input-group span i{
+    color: #fff !important;
+}
+.auth_holder  .input_holder .input-group input{
+    font-size: 22px;
+}
+
+.auth_holder .ind{
+    color: var(--fx-main-text-color);
+    font-size: 17px;
+}
+.auth_holder button.btn_main{
+    width: 100%;
+}
 /* *************************End Authentification************************ */
