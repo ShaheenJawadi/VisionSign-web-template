@@ -42,3 +42,30 @@
 .cours_lessons .side_bar .single.quizz .circle{
     background: #dedb0a;
 }
+
+
+
+.cours_lessons .core  {}
+.cours_lessons .core  .content_holder{
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+.cours_lessons .core  .content_holder .thumb{
+    background: #ddd;
+    height: 450px;
+    width: 100%;
+}
+
+.cours_lessons .core  .content_holder .content {
+    padding: 20px;
+
+}
+
+.cours_lessons .core   .btn_main {
+    margin: 15px;
+    display: flex;
+    margin-left: auto;
+    margin-right: 0;
+}
