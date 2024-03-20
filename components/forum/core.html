@@ -8,7 +8,9 @@
             <div class="entry">
                 <div class="imgs_list" ></div>
                 <div class="content">
+                    <textarea class="form-control" placeholder="Titre" rows="1"></textarea>
                     <textarea class="form-control" placeholder="Poser votre question" rows="2"></textarea>
+
                 </div>
 
             </div>
@@ -50,4 +52,16 @@
 
    </div>
     
+
+   <div class="pub_list" id="pub_list">
+
+   </div>
 </div>
+
+<script>
+    for (let i = 0; i < 15; i++) {
+                        $.get('../components/forum/pub_grid.html', function (data) {
+                            $("#pub_list").append(data);
+                        });
+                    }
+</script>
