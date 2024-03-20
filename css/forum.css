@@ -193,6 +193,18 @@ gap: 15px;
     color: var(--fx-main-text-color);
     font-size: 14px;
 }
+.forum_page .pub_list .single .head .options {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.forum_page .pub_list .single .head .options .drop_btn{
+
+color: #9d9d9d;
+padding :15px;
+cursor: pointer;
+}
 
 .forum_page .pub_list .single .content{
 display: flex;
@@ -318,6 +330,14 @@ gap: 4px;
 }
 
 
-
+.forum_page .pub_list .single .list_comments .single_comment .options{
+    flex: 1;
+    padding: 15px;
+    color: #6c757d;
+    font-size: 14px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
 
 /* ************************** */
