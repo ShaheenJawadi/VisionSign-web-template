@@ -93,3 +93,59 @@
 .forum_page  .add_pub_section .btm_btns  button{
     font-size: 16px;
 }
+
+
+
+/* ****** */
+.forum_page .nav_section{
+display: flex;
+justify-content: space-between;
+align-items: flex-end;
+margin: 15px 0;
+gap: 15px;
+}
+
+.forum_page .nav_section .section_list {
+
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    border-bottom: 1px solid #89898929;
+    flex: 1;
+}
+.forum_page .nav_section .section_list  .single {
+    padding: 10px;
+    color: var(--fx-main-text-color);
+    cursor: pointer;
+}
+.forum_page .nav_section .section_list  .single:hover{
+    color: var(--fx-primary-color);
+}
+.forum_page .nav_section .section_list  .single.selected{
+    color: #fff;
+    background: var(--fx-primary-color);
+    border-radius:  5px 5px 0 0;
+}
+.forum_page .nav_section  .search{
+
+}
+.forum_page .nav_section  .search input{
+    border-left: unset;
+}
+.forum_page .nav_section  .search input:focus{
+    box-shadow: unset;
+
+}
+.forum_page .nav_section  .search .input-group span{
+    background: #fff;
+    color: var(--fx-primary-color);
+    
+}
+
+
+
+
+
+
+
+/* ..... */
