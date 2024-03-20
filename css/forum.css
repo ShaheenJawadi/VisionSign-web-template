@@ -362,7 +362,7 @@ gap: 4px;
     min-height: 550px;
     display: flex;
     flex-direction: column;
-    margin-top: 15px;
+    padding:  25px 0;
     justify-content: space-between;
 
 }
@@ -409,3 +409,83 @@ gap: 4px;
     font-size: 18px;
     padding: 10px 25px;
  }
+
+
+
+ .chatbot_page .holder  .list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+ }
+
+ .chatbot_page .holder  .list  .single{
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+    max-width: 80%;
+    position: relative;
+ }
+
+ 
+
+ .chatbot_page .holder  .list  .single .avatar {
+    padding: 5px;
+ }
+ 
+ .chatbot_page .holder  .list  .single .avatar img {
+    height: 55px ;
+    width: 55px;
+    border-radius: 50%;
+ }
+
+
+ .chatbot_page .holder  .list  .single  .text{
+    position: relative;
+     background: #cacacade;
+     margin-top: 15px;
+     padding: 16px;
+     font-size: 20px;
+     border-radius: 14px;
+     color: #000;
+}
+
+.chatbot_page .holder  .list  .single  .text::after {
+    left: -20px;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 10px solid transparent;
+    border-right: 10px solid #cacacade;
+    content: "";
+    top: 20px;
+
+    position: absolute;
+  }
+
+
+.chatbot_page .holder  .list  .single.bot {
+
+    align-self: flex-end;
+    flex-direction: row-reverse;
+
+
+
+
+}
+
+.chatbot_page .holder  .list  .single.bot  .text{
+    background: var(--fx-primary-color);
+
+    color: #fff;
+}
+
+.chatbot_page .holder  .list  .single.bot  .text::after{
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-left: 10px solid var(--fx-primary-color);
+    right: -20px;
+    content: "";
+    position: absolute;
+    left: unset;
+}
