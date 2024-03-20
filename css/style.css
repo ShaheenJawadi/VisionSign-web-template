@@ -40,7 +40,11 @@ h2.p_color{
     border-radius: 8px;
     font-size: 20px;
 }
- 
+ .w_block{
+    background: #fff;
+    border-radius: 5px;
+    padding: 10px;
+ }
 /* *************************Header ************************ */
 .header {
     background: #fff;
