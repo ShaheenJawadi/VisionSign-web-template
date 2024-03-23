@@ -15,9 +15,32 @@
 
 <body>
     <div class="teacherPanel">
-        <div class="header sticky-top">
+        <div class="header sticky-top"> </div>
+        <div class="container">
+            <div class="action_section">
+                <div class="section_title">
+                    Mes cours
 
+                </div>
+                <div class="sep">
 
+                </div>
+
+                <div>
+                    <button class="btn_main">Ajouter un Cours</button>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="cours_list">
+            <div class="container">
+                <div class="row" id="cours_list">
+
+                </div>
+
+            </div>
 
         </div>
 
@@ -43,6 +66,11 @@
             $(".header").load('../components/teacher/header.html')
                 // $('footer').load('../components/footer.html')
 
+            for (let i = 0; i < 15; i++) {
+                $.get('../components/teacher/cours/single_grid.html', function(data) {
+                    $("#cours_list").append(data);
+                });
+            }
 
         });
     </script>
