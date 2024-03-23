@@ -1,0 +1,30 @@
+.teacherPanel {}
+
+.teacherPanel .header {
+    background: none;
+}
+
+.teacherPanel .header>.container {
+    background: var(--fx-primary-color);
+}
+
+.teacherPanel .header .top_ind {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.teacherPanel .header .navbar {
+    padding-top: 0px;
+}
+
+.teacherPanel .header .navbar .to_home {
+    font-size: 14px;
+}
+
+.teacherPanel .header .navbar>.container {
+    background: #fff;
+    border-radius: 0 0 20px 20px;
+    box-shadow: 3px 4px 10px 0px #b4b4b4b0;
+}
