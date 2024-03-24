@@ -69,3 +69,9 @@
 .teacherPanel .single_cours_grid .options_chimp .dropdown-toggle::after {
     display: none !important;
 }
+
+.teacherPanel .quiz_list .single {
+    background: #fff;
+    margin-bottom: 15px;
+    padding: 15px;
+}
