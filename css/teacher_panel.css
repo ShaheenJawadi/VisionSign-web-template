@@ -105,6 +105,36 @@
     font-weight: 700;
 }
 
+.teacherPanel .form_page {
+    background: #fff;
+    border-radius: 8px;
+    padding: 25px;
+}
+
+.teacherPanel .form_page .tab-content {
+    flex: 1;
+}
+
+.teacherPanel .form_page .single_row {
+    margin-bottom: 15px;
+}
+
+.teacherPanel .form_page .single_row.thumb {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.teacherPanel .form_page .single_row.thumb img {
+    height: 300px;
+    border: 1px solid var(--fx-main-text-color);
+}
+
+
+/* *************************** */
+
 .quiz_popup .header_section .txt {
     color: var(--fx-primary-color);
     font-size: 17px;
