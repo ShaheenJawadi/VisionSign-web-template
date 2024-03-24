@@ -432,3 +432,13 @@ footer .footer_Holder .footer_social .item:hover {
 .teacherPanel .options_chimp .dropdown-toggle::after {
     display: none !important;
 }
+
+
+/* *********************** */
+
+.general_popup {}
+
+.general_popup .header_section {
+    padding: 15px 8px;
+    border-bottom: 1px solid var(--fx-main-text-color);
+}
