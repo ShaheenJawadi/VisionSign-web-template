@@ -105,4 +105,59 @@
     font-weight: 700;
 }
 
-.quiz_popup {}
+.quiz_popup .header_section .txt {
+    color: var(--fx-primary-color);
+    font-size: 17px;
+}
+
+.quiz_popup .header_section .title {
+    color: #000;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.quiz_popup .question_list {
+    padding: 10px 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.quiz_popup .question_list .single {
+    border-bottom: 1px solid #a7a7a77c;
+    padding-bottom: 10px;
+}
+
+.quiz_popup .question_list .single:last-of-type {
+    border-bottom: unset;
+}
+
+.quiz_popup .question_list .single .question {
+    color: #000;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.quiz_popup .question_list .single .img_holder {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    justify-content: center;
+}
+
+.quiz_popup .question_list .single .img_holder img {
+    max-width: 300px;
+}
+
+.quiz_popup .question_list .single .single_rep {
+    color: var(--fx-main-text-color);
+    font-size: 14px;
+    margin-bottom: 8px;
+    padding: 4px;
+}
+
+.quiz_popup .question_list .single .single_rep.correct {
+    border-radius: 50px;
+    background: var(--fx-secondary-color);
+    color: #fff;
+}

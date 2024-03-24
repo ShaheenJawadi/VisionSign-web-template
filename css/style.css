@@ -440,5 +440,6 @@ footer .footer_Holder .footer_social .item:hover {
 
 .general_popup .header_section {
     padding: 15px 8px;
-    border-bottom: 1px solid var(--fx-main-text-color);
+    border-bottom: 1px solid var(--fx-primary-color);
+    margin-bottom: 15px;
 }
