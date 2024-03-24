@@ -55,23 +55,52 @@
     position: absolute;
     top: 15px;
     right: 15px;
-    color: #fff;
-    background: var(--fx-primary-color);
-    border-radius: 4px;
-    font-size: 19px;
-    cursor: pointer;
-}
-
-.teacherPanel .single_cours_grid .options_chimp .dropdown-toggle {
-    padding: 2px 10px;
-}
-
-.teacherPanel .single_cours_grid .options_chimp .dropdown-toggle::after {
-    display: none !important;
 }
 
 .teacherPanel .quiz_list .single {
     background: #fff;
     margin-bottom: 15px;
     padding: 15px;
+    border-radius: 8px;
+}
+
+.teacherPanel .quiz_list .single .header_section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #b8b8b8d3;
+    margin-bottom: 10px;
+}
+
+.teacherPanel .quiz_list .single .header_section .related_cours {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.teacherPanel .quiz_list .single .header_section .related_cours .txt {
+    color: var(--fx-primary-color);
+    font-size: 14px;
+}
+
+.teacherPanel .quiz_list .single .header_section .related_cours .title {
+    color: #000;
+    font-size: 18px;
+}
+
+.teacherPanel .quiz_list .single .infos {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.teacherPanel .quiz_list .single .infos .s {
+    font-size: 15px;
+    color: var(--fx-main-text-color);
+}
+
+.teacherPanel .quiz_list .single .infos .s span {
+    color: var(--fx-primary-color);
+    font-weight: 700;
 }
