@@ -1,4 +1,6 @@
-.teacherPanel {}
+.teacherPanel {
+    padding-bottom: 15px;
+}
 
 .teacherPanel .header {
     background: none;
@@ -130,6 +132,14 @@
 .teacherPanel .form_page .single_row.thumb img {
     height: 300px;
     border: 1px solid var(--fx-main-text-color);
+}
+
+.teacherPanel .form_page .list_lessons .single {
+    border-bottom: 1px solid #bcbcbc7a;
+}
+
+.teacherPanel .form_page .list_lessons .single:last-of-type {
+    border-bottom: unset;
 }
 
 .teacherPanel .form_page .nav-pills .nav-link.active,
