@@ -136,6 +136,8 @@
 
 .teacherPanel .form_page .list_lessons .single {
     border-bottom: 1px solid #bcbcbc7a;
+    padding-bottom: 15px;
+    margin: 15px;
 }
 
 .teacherPanel .form_page .list_lessons .single:last-of-type {
