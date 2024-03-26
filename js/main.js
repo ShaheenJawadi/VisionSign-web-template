@@ -1,7 +1,7 @@
-(function ($) {
+(function($) {
     "use strict";
     var $window = $(window);
-    $window.on('load', function (key, value) {
+    $window.on('load', function(key, value) {
 
         // $(".header").load('../components/header.html')
         // $('.banner').load('../components/main_page/banner.html')
@@ -13,5 +13,14 @@
         // $('.our_categories_section').load('../components/main_page/nos_categories_section.html')
         // $('.explor_cours_section').load('../components/main_page/explor_cours_section.html')
         // $('.nos_aventages_section').load('../components/main_page/nos_aventages_section.html')     
+    });
+
+    $(document).ready(function() {
+
+    })
+
+    $(document).on('click', '.delete_lesson', function() {
+
+        $(this).closest('.single').remove();
     });
 })(jQuery);

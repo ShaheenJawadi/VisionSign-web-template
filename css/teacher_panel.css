@@ -140,6 +140,15 @@
     margin: 15px;
 }
 
+.teacherPanel .form_page .list_lessons .single .delete_lesson {
+    color: #dd0b0b;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+    font-size: 19px;
+    cursor: pointer;
+}
+
 .teacherPanel .form_page .list_lessons .single:last-of-type {
     border-bottom: unset;
 }
