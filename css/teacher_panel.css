@@ -132,6 +132,30 @@
     border: 1px solid var(--fx-main-text-color);
 }
 
+.teacherPanel .form_page .nav-pills .nav-link.active,
+.teacherPanel .form_page .nav-pills .show>.nav-link {
+    background: var(--fx-primary-color);
+    color: #fff;
+}
+
+.teacherPanel .form_page .nav-pills {
+    border-right: 2px solid var(--fx-primary-color);
+    min-width: 200px;
+}
+
+.teacherPanel .form_page .nav-pills .nav-link {
+    color: var(--fx-primary-color);
+    border-radius: 5px 0 0 5px;
+    font-weight: 700;
+    text-align: right;
+}
+
+.teacherPanel .form_page .nav-pills .nav {
+    position: sticky;
+    top: 120px;
+    left: 0;
+}
+
 
 /* *************************** */
 
