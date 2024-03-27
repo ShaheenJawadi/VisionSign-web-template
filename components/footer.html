@@ -1,18 +1,19 @@
-<div class="footer_Holder" >
-    
-    <div class="container" >
-        <div class="row" >
-            <div class="col-md-3" >
-                <div class="logo_holder" ><img src="/assets/logo_circle.png" class="footer_logo" alt=""></div>
+<div class="footer_Holder">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="logo_holder"><img src="/assets/logo_circle.png" class="footer_logo" alt=""></div>
 
             </div>
-            <div class="col-md-3" >
-                <div class="footer_list_holder" >
-                    <span class="title" >Categories</span>
+            <div class="col-md-3">
+                <div class="footer_list_holder">
+                    <span class="title">Categories</span>
                     <ul>
                         <li><a href="#">-----------------------------</a></li>
                         <li><a href="#">-----------------------------</a>
-                        </li><li><a href="#">-----------------------------</a></li>
+                        </li>
+                        <li><a href="#">-----------------------------</a></li>
                         <li><a href="#">-----------------------------</a></li>
                         <li><a href="#">-----------------------------</a></li>
                     </ul>
@@ -32,14 +33,14 @@
                         <li><a href="#">-----------------------------</a></li>
                         <li><a href="#">-----------------------------</a></li>
                     </ul>
-            
+
                 </div>
-            
+
             </div>
 
             <div class="col-md-3">
                 <div class="footer_social">
-                    <a class="item" href="#">     
+                    <a class="item" href="#">
                         <i class="fa-brands fa-facebook"></i>
                     </a>
                     <a class="item" href="#">
@@ -47,13 +48,13 @@
                     </a>
                     <a class="item" href="#">
                         <i class="fa-brands fa-x-twitter"></i>
-                    </a> 
-                     
-            
+                    </a>
+
+
                 </div>
-            
+
             </div>
- 
+
 
         </div>
 
@@ -61,22 +62,42 @@
 </div>
 
 
-<div class="modal fade" id="authModel"   tabindex="-1"  >
+<div class="modal fade" id="authModel" tabindex="-1">
     <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
-      <div class="modal-content">
- 
-      </div>
+        <div class="modal-content">
+
+        </div>
     </div>
 </div>
 
 <script>
-  
-    
-        $(".modal-content").load('../components/auth/login.html')  
+    $(".modal-content").load('../components/auth/login.html')
         /* $(".modal-content").load('../components/auth/register.html') */
-        
-/*         $(".modal-content").load('../components/auth/forget_pws.html') */
 
-      
- 
+    /*         $(".modal-content").load('../components/auth/forget_pws.html') */
+</script>
+
+<div class="modal fade" id="generalModal" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+
+        </div>
+    </div>
+</div>
+<script>
+    $(document).on('click', '[data-edit-publication]', function() {
+        var contentUrl = $(this).data('edit-publication');
+
+        $.ajax({
+            url: contentUrl,
+            type: 'GET',
+            success: function(response) {
+                $('#generalModal .modal-content').html(response);
+                $('#generalModal').modal('show');
+            },
+            error: function(xhr, status, error) {
+                console.error('err');
+            }
+        });
+    });
 </script>
