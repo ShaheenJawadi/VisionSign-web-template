@@ -23,4 +23,9 @@
 
         $(this).closest('.single').remove();
     });
+
+    $(document).on('click', '.toggle_edit_comment', function() {
+
+        $(this).closest('.single_comment').addClass('add');
+    });
 })(jQuery);
