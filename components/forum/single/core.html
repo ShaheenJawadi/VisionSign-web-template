@@ -1,0 +1,18 @@
+<div class="">
+
+
+
+
+
+
+
+    <div class="pub_list" id="pub_list">
+
+    </div>
+</div>
+
+<script>
+    $.get('../components/forum/pub_grid.html', function(data) {
+        $("#pub_list").append(data);
+    });
+</script>
