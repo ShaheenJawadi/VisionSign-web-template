@@ -1,12 +1,12 @@
 <div class="">
 
-   <div class="add_pub_section" >
-        <div class="top_entry" >
-            <div class="avatar" >
+    <div class="add_pub_section">
+        <div class="top_entry">
+            <div class="avatar">
                 <img src="/assets/cours/person.jpg" alt="">
             </div>
             <div class="entry">
-                <div class="imgs_list" ></div>
+                <div class="imgs_list"></div>
                 <div class="content">
                     <textarea class="form-control" placeholder="Titre" rows="1"></textarea>
                     <textarea class="form-control" placeholder="Poser votre question" rows="2"></textarea>
@@ -16,8 +16,8 @@
             </div>
 
         </div>
-        <div class="btm_btns" >
-            <div class="single" >
+        <div class="btm_btns">
+            <div class="single">
 
                 <i class="fa-solid fa-paperclip"></i>
 
@@ -30,38 +30,38 @@
 
         </div>
 
-   </div>
-
-
-   <div class="nav_section" >
-    <div class="section_list" >
-        <div class="single selected">Tous </div>
-        <div class="single">Mes publication </div>
-        <div class="single">Populaire </div>
-
-
-    </div>
-    <div class="search">
-
-        <div class="input-group flex-nowrap">
-            <span class="input-group-text" ><i class="fa-solid fa-magnifying-glass"></i></span>
-            <input type="text" class="form-control" placeholder="Search feed"  >
-          </div>
-
     </div>
 
-   </div>
-    
 
-   <div class="pub_list" id="pub_list">
+    <div class="nav_section">
+        <div class="section_list">
+            <div class="single selected">Tous </div>
+            <div class="single">Mes publication </div>
+            <div class="single">Populaire </div>
 
-   </div>
+
+        </div>
+        <div class="search">
+
+            <div class="input-group flex-nowrap">
+                <span class="input-group-text"><i class="fa-solid fa-magnifying-glass"></i></span>
+                <input type="text" class="form-control" placeholder="Search feed">
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="pub_list" id="pub_list">
+
+    </div>
 </div>
 
 <script>
     for (let i = 0; i < 5; i++) {
-                        $.get('../components/forum/pub_grid.html', function (data) {
-                            $("#pub_list").append(data);
-                        });
-                    }
+        $.get('../components/forum/pub_grid.html', function(data) {
+            $("#pub_list").append(data);
+        });
+    }
 </script>

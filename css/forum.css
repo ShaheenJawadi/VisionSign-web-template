@@ -488,3 +488,7 @@
 .forum_page .pub_list .single .list_comments .add.single_comment .content .new_comment {
     display: block;
 }
+
+.edit_publication {
+    min-width: 700px;
+}
