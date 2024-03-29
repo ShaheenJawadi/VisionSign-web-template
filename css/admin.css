@@ -17,8 +17,35 @@ body {
     flex: 1;
     max-height: 100vh;
     overflow: scroll;
+    min-height: 100vh;
+    padding: 20px;
 }
 
-.adminPanel .main .content .aa {
-    min-height: 1500px;
+.adminPanel .main .navBar .list {
+    padding: 25px;
+    padding-right: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.adminPanel .main .navBar .list .single {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    color: #fff;
+    font-size: 25px;
+    padding: 8px;
+}
+
+.adminPanel .main .navBar .list .single.active {
+    background: #fff;
+    color: var(--fx-primary-color);
+    border-radius: 50px 0 0 50px;
+}
+
+.adminPanel .main .navBar .list .single span {
+    display: block;
+    font-weight: 800;
+    font-size: 15px;
 }
