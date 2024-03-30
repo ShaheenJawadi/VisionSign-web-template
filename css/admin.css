@@ -4,6 +4,33 @@ body {
 
 .adminPanel {}
 
+.adminPanel .header .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.adminPanel .header {
+    padding: 5px 10px;
+    box-shadow: -1px 5px 8px 2px #94949473;
+}
+
+.adminPanel .header .header_logo {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.adminPanel .header .header_logo img {
+    height: 50px;
+}
+
+.adminPanel .header .header_logo span {
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--fx-main-text-color);
+}
+
 .adminPanel .main {
     display: flex;
 }
