@@ -8,6 +8,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0 25px;
 }
 
 .adminPanel .header {
@@ -26,7 +27,7 @@ body {
 }
 
 .adminPanel .header .header_logo span {
-    font-size: 22px;
+    font-size: 18px;
     font-weight: 700;
     color: var(--fx-main-text-color);
 }
@@ -34,10 +35,13 @@ body {
 .adminPanel .header .right_side {
     display: flex;
     align-items: center;
-    gap: 5px;
+    gap: 15px;
 }
 
-.adminPanel .header .right_side .single {}
+.adminPanel .header .right_side .single {
+    font-size: 20px;
+    color: var(--fx-primary-color);
+}
 
 .adminPanel .header .right_side .single.profile {}
 
@@ -48,12 +52,20 @@ body {
     border: 1px solid var(--fx-primary-color);
 }
 
+.adminPanel .header .right_side .single.profile .dropdown-toggle::after {
+    display: none;
+}
+
+.adminPanel .header .right_side .single .dropdown-menu a .ic {
+    color: var(--fx-primary-color);
+}
+
 .adminPanel .main {
     display: flex;
 }
 
 .adminPanel .main .navBar {
-    min-width: 300px;
+    min-width: 250px;
     background: var(--fx-primary-color);
 }
 
