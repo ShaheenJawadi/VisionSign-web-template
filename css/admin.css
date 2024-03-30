@@ -31,6 +31,23 @@ body {
     color: var(--fx-main-text-color);
 }
 
+.adminPanel .header .right_side {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.adminPanel .header .right_side .single {}
+
+.adminPanel .header .right_side .single.profile {}
+
+.adminPanel .header .right_side .single.profile img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 1px solid var(--fx-primary-color);
+}
+
 .adminPanel .main {
     display: flex;
 }
