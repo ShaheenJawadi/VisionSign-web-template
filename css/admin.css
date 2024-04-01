@@ -97,7 +97,28 @@ body {
     font-weight: 700;
     color: var(--fx-primary-color);
 }
+.adminPanel .main .content .box .topNavigation_box{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: var(--fx-secondary-btn-bg);
+        margin-top: -15px;
+        margin-bottom: 20px;
+}
+.adminPanel .main .content .box .topNavigation_box a {
+    background: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 10px 10px 0 0;
+    padding: 15px 25px;
+    border-bottom: 1px solid var(--fx-primary-color);
+    box-shadow: 5px -8px 8px 3px #78787845;
 
+}
+.adminPanel .main .content .box .topNavigation_box a.active {
+    background: var(--fx-primary-color);
+    color: #fff;
+}
 .adminPanel .main .navBar .list {
     padding: 25px;
     padding-right: 0;
