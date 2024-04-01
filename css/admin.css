@@ -147,3 +147,23 @@ body {
     font-weight: 800;
     font-size: 15px;
 }
+
+.adminPanel .form_page {
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+.adminPanel .form_page.s{
+    align-items: center;
+}
+.adminPanel .form_page.s .single_row{
+    max-width: 600px;
+    min-width: 500px;
+}
+.adminPanel .form_page .s_btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
