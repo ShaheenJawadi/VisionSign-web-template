@@ -76,7 +76,12 @@ body {
     min-height: 100vh;
     padding: 20px;
 }
-
+.adminPanel .main .content .box {
+    background: #fff;
+    margin: 15px;
+    border-radius: 5px;
+    min-height: 80vh;
+}
 .adminPanel .main .navBar .list {
     padding: 25px;
     padding-right: 0;
