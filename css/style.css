@@ -35,6 +35,9 @@ h2.p_color {
     color: #fff;
     border-radius: 8px;
     font-size: 20px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
 }
 
 .w_block {

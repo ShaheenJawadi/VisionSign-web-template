@@ -81,6 +81,17 @@ body {
     margin: 15px;
     border-radius: 5px;
     min-height: 80vh;
+    padding:15px 0 ;
+}
+.adminPanel .main .content .box .head{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+.adminPanel .main .content .box .head .title {
+    font-weight: 700;
 }
 .adminPanel .main .navBar .list {
     padding: 25px;
