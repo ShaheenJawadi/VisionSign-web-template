@@ -118,7 +118,7 @@
 
 
             $("#add_q").on("click", function () {
-                $.get('../cours/add_single_lesson.html', function (data) {
+                $.get('./add_single_question.html', function (data) {
                     $("#list_quiz").append(data);
                 });
             });
