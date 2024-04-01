@@ -76,23 +76,28 @@ body {
     min-height: 100vh;
     padding: 20px;
 }
+
 .adminPanel .main .content .box {
     background: #fff;
     margin: 15px;
     border-radius: 5px;
     min-height: 80vh;
-    padding:15px 0 ;
+    padding: 15px 0;
 }
-.adminPanel .main .content .box .head{
+
+.adminPanel .main .content .box .head {
 
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-bottom: 25px;
 }
+
 .adminPanel .main .content .box .head .title {
     font-weight: 700;
+    color: var(--fx-primary-color);
 }
+
 .adminPanel .main .navBar .list {
     padding: 25px;
     padding-right: 0;
