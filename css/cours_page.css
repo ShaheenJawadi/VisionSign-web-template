@@ -236,6 +236,13 @@
     display: flex;
     flex-direction: column;
     gap: 15px;
+    flex: 1;
+}
+
+.cours_page .core .info_review .list_rating .item .options .drop_btn {
+    color: var(--fx-main-text-color);
+    padding: 5px;
+    cursor: pointer;
 }
 
 .cours_page .core .info_review .list_rating .item .avis_content .top {
