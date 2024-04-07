@@ -69,7 +69,26 @@ h2.p_color {
     color: var(--fx-primary-color) !important;
 }
 
-.header .nav-item.dropdown {}
+.header .nav-item.dropdown .dropdown-menu {
+    border-radius: 0;
+    padding: 0;
+}
+
+.header .nav-item.dropdown .dropdown-menu .dropdown-item {
+    font-size: 18px;
+    padding: 5px 12px;
+    min-width: 200px;
+}
+
+.header .nav-item.dropdown .dropdown-menu .dropdown-item:hover {
+    background: var(--fx-primary-color);
+    color: #fff;
+}
+
+.header .nav-item.dropdown .dropdown-menu .dropdown-item:active {
+    color: inherit;
+    background: unset;
+}
 
 .header .nav-item.dropdown .single_item {
     position: relative;
