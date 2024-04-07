@@ -17,6 +17,8 @@
 
     $(document).ready(function() {
 
+
+
     })
 
     $(document).on('click', '.delete_lesson', function() {
@@ -27,5 +29,17 @@
     $(document).on('click', '.toggle_edit_comment', function() {
 
         $(this).closest('.single_comment').addClass('add');
+    });
+
+
+
+
+    $(document).on('mouseover', '.header .nav-item.dropdown .single_item', function() {
+
+        $(this).find('.subcategories').addClass('show');
+    });
+    $(document).on('mouseout', '.header .nav-item.dropdown .single_item', function() {
+
+        $(this).find('.subcategories').removeClass('show');
     });
 })(jQuery);

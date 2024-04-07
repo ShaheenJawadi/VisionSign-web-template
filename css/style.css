@@ -69,6 +69,17 @@ h2.p_color {
     color: var(--fx-primary-color) !important;
 }
 
+.header .nav-item.dropdown {}
+
+.header .nav-item.dropdown .single_item {
+    position: relative;
+}
+
+.header .nav-item.dropdown .single_item .subcategories {
+    top: 0;
+    left: 100%;
+}
+
 .header .auth_part {
     align-items: center;
 }
