@@ -473,6 +473,28 @@ footer .footer_Holder .footer_social .item:hover {
     display: none !important;
 }
 
+.reclamation_page {
+    background: #fff;
+    border-radius: 10px;
+    margin: 25px;
+    padding: 25px;
+}
+
+.page .tit {
+    color: var(--fx-primary-color);
+    margin-bottom: 20px;
+}
+
+.page .form_holder {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.page .form_holder label {
+    color: var(--fx-main-text-color);
+}
+
 
 /* *********************** */
 
